@@ -5,3 +5,5 @@
 # the assignment PDF indicates all of the specifications that needed to be implemented like what happens when a client goes into overdraft when they have overdraft protection vs when they don't
 
 # a makefile is used to run this program
+
+# this program utilizes the pthread.h library which is functional on unix/linux systems but can be installed to work on windows with mingw installer if need be
