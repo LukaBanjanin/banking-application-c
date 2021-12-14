@@ -4,6 +4,11 @@
 
 # the assignment PDF indicates all of the specifications that needed to be implemented like what happens when a client goes into overdraft when they have overdraft protection vs when they don't
 
-# a makefile is used to run this program
+# the original C program was built for a school project but I have dockerized the application to demonstrate my knowledge of Docker and make it easier to run the application on a windows without the need for a VM
 
-# this program utilizes the pthread.h library which is functional on unix/linux systems but can be installed to work on windows with mingw installer if need be
+# to build and run the project:
+# make sure you have the latest version of docker installed on your machine
+# pull the repository from github and cd into the repository folder from powershell or terminal
+# type the command "docker build -t bankingapp ."
+# type the command "docker run bankingapp"
+# the output is printed in the terminal
