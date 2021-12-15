@@ -8,6 +8,7 @@
 
 # to build and run the project:
 # make sure you have the latest version of docker installed on your machine
+# in the dockerfile, update the path in the WORKDIR variable to the path of the pulled repository on your local machine (comment indicates where to do this)
 # pull the repository from github and cd into the repository folder from powershell or terminal
 # type the command "docker build -t bankingapp ."
 # type the command "docker run bankingapp"
